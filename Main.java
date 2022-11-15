@@ -12,7 +12,7 @@ double result = Math.round(x * factor) / factor;
 
 
 {
-//Static methods in Java are inherited, but can not be overridden.
+//Static methods in Java are inherited, but cannot be overridden.
   
 public class Writer {
     public static void write() {
