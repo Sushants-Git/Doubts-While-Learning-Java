@@ -35,7 +35,6 @@ public class Programmer extends Writer {
         thirdWriter.write();
     }
 }
-  
 //-----> Output :- Writing
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -45,12 +44,12 @@ public static int GCD(int a, int b){
         // Let's say our desire was that 'a' was the greater term.
         // if 'a' is the greater term we are fine with it.
         if (a % b == 0)
-         return b;
-         else
-         return GCD(b, a % b);
-         // Here even if 'a' is not the greater term.
-         // The greater term 'b' will become 'a' and since a<b => a%b = a.
-         // so it will become greater,smaller irrespective of the input
+        return b;
+        else
+        return GCD(b, a % b);
+        // Here even if 'a' is not the greater term.
+        // The greater term 'b' will become 'a' and since a<b => a%b = a.
+        // so it will become greater,smaller irrespective of the input
     }
-  // Complexity log(a+b) (https://codility.com/media/train/10-Gcd.pdf)
+// Complexity log(a+b) (https://codility.com/media/train/10-Gcd.pdf)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
