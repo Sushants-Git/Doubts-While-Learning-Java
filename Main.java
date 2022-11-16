@@ -48,7 +48,7 @@ public static int GCD(int a, int b){
         else
         return GCD(b, a % b);
         // Here even if 'a' is not the greater term.
-        // The greater term 'b' will become 'a' and since a<b => a%b = a.
+        // The greater term 'b' will become 'a' and since a<b => a%b = a.(GCD(b, a % b);)
         // so it will become greater,smaller irrespective of the input
     }
 // Complexity log(a+b) (https://codility.com/media/train/10-Gcd.pdf)
