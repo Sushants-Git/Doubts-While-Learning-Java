@@ -37,7 +37,7 @@ public class Programmer extends Writer {
 }
 //-----> Output :- Writing
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 public static int GCD(int a, int b){
         // Here it does not matter if a>b or b>a.
@@ -52,7 +52,8 @@ public static int GCD(int a, int b){
         // so it will become greater,smaller irrespective of the input
     }
 // Complexity log(a+b) (https://codility.com/media/train/10-Gcd.pdf)
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Point originOne = new Point(23, 94);
 Rectangle rectOne = new Rectangle(originOne, 100, 200);
@@ -63,24 +64,19 @@ Rectangle rectTwo = new Rectangle(50, 100);
 // 2.Instantiation: The new keyword is a Java operator that creates the object.
 // 3.Initialization: The new operator is followed by a call to a constructor, which initializes the new object.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Declaring a Variable to Refer to an Object
-
 // Previously, you learned that to declare a variable, you write:
-
 // type name;
-
 // This notifies the compiler that you will use name to refer to data whose type is type. With a primitive variable, this declaration also reserves the proper amount of memory for the variable.
-
 // You can also declare a reference variable on its own line. For example:
-
 // Point originOne;
-
 // If you declare originOne like this, its value will be undetermined until an object is actually created and assigned to it. Simply declaring a reference variable does not create an object. For that, you need to use the new operator, as described in the next section. You must assign an object to originOne before you use it in your code. Otherwise, you will get a compiler error.
-
 // A variable in this state, which currently references no object, can be illustrated as follows (the variable name, originOne, plus a reference pointing to nothing):
-
+  
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
   
+// int height = new Rectangle().height;  
   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------  
