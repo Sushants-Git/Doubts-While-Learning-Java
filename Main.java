@@ -80,3 +80,10 @@ Rectangle rectTwo = new Rectangle(50, 100);
 // int height = new Rectangle().height;  
   
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------  
+
+// Lambda Expressions
+// One issue with anonymous classes is that if the implementation of your anonymous class is very simple, such as an interface that contains only one method,
+// then the syntax of anonymous classes may seem unwieldy and unclear. In these cases, you're usually trying to pass functionality as an argument to another method.
+  
+// An interface having a single method, a class implementing that inerface and overriding that method then you create an object of this class.
+// Instead of doing all this you can just create an object using lambda functions.  
