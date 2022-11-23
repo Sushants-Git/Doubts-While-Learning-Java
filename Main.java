@@ -87,3 +87,12 @@ Rectangle rectTwo = new Rectangle(50, 100);
   
 // An interface having a single method, a class implementing that inerface and overriding that method then you create an object of this class.
 // Instead of doing all this you can just create an object using lambda functions.  
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+// The difference between a checked and unchecked exception is that a checked exception is caught at compile time whereas a runtime or unchecked exception is,
+// as it states, at runtime.
+// A checked exception must be handled either by re-throwing or with a try catch block, a runtime isn’t required to be handled. An unchecked exception is a programming error and are fatal,
+// whereas a checked exception is an exception condition within your codes logic and can be recovered or retried from.  
+
+![Types of Exceptions in Java, Checked vs Unchecked](https://cdn.rollbar.com/wp-content/uploads/2021/10/types-of-exceptions-in-java-checked-unchecked.png)
