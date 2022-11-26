@@ -96,3 +96,15 @@ Rectangle rectTwo = new Rectangle(50, 100);
 // whereas a checked exception is an exception condition within your codes logic and can be recovered or retried from.  
 
 ![Types of Exceptions in Java, Checked vs Unchecked](https://cdn.rollbar.com/wp-content/uploads/2021/10/types-of-exceptions-in-java-checked-unchecked.png)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Recursive Programs to find Minimum                                                     
+static int Min(int[] arr,int index) {
+		if(index == arr.length - 1) {
+			return arr[arr.length - 1];
+		}
+		return Math.min(arr[index],Min(arr,index + 1));
+	}               
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------                                                     
