@@ -100,11 +100,11 @@ Rectangle rectTwo = new Rectangle(50, 100);
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Recursive Programs to find Minimum                                                     
-static int Min(int[] arr,int index) {
-		if(index == arr.length - 1) {
-			return arr[arr.length - 1];
-		}
-		return Math.min(arr[index],Min(arr,index + 1));
-	}               
+static int Min(int[] arr, int index) {
+  if (index == arr.length - 1) {
+    return arr[arr.length - 1];
+  }
+  return Math.min(arr[index], Min(arr, index + 1));
+}               
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------                                                     
