@@ -116,5 +116,5 @@ static int Min(int[] arr, int index) {
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// Nested classes are divided into two categories: non-static and static. Non-static nested classes are called inner classes. Nested classes that are 
-// declared static are called static nested classes. 
+// Nested classes are divided into two categories: non-static and static. Non-static nested classes are called inner classes. Nested classes that are declared static
+// are called static nested classes. 
